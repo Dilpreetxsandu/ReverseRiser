@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --config Release --target ReverseRiser_VST3
+      - name: Upload VST3
+        uses: actions/upload-artifact@v4
+        with:
+          name: ReverseRiser-Windows-VST3
+          path: build/ReverseRiser_artefacts/Release/VST3/
