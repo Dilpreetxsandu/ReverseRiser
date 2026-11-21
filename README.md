@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🎛️ Reverse Riser
-
+> 💰 Skip the $40+ price tag: Reverse Riser is completely free.
 ### Instant reverse-reverb risers for FL Studio
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
