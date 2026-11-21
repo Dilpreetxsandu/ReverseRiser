@@ -97,6 +97,6 @@ Output: `build/ReverseRiser_artefacts/Release/VST3/`
 
 <div align="center">
 
-Built with [JUCE](https://juce.com) 💜
+
 
 </div>
